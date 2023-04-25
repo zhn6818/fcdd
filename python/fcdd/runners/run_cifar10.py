@@ -1,4 +1,6 @@
 import torch
+import sys
+sys.path.append('/data1/zhn/2022/fcdd/python')
 from fcdd.runners.bases import ClassesRunner
 from fcdd.runners.argparse_configs import DefaultCifar10Config
 
